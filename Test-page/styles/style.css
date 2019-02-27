@@ -65,29 +65,50 @@ label {
 	margin-top: 30px;
 	border-radius: 4px;
 	color:white;
-	background-color: snow;
+	background-color: dodgerblue;
 	box-sizing: border-box;
+	border: 0;
 }
 ion-icon {
 	display:inline-block;
 	font-size: 48px;
-	color: black;
+	color: white;
 }
 
 ion-icon:hover {
 	
-	color: crimson;
+	color: gold;
 	/*font-size: 56px;*/
+	
 }
 
 #login {
 	
-	display: none;
+	/*display: none;*/
 }
 
 #register {
 	
 	
+	display: none;
 }
 
+#register input {
+	
+	width: 300px;
+}
 
+#register button {
+	
+	width: 130px;
+	margin-top: 10px;
+	border: 0;
+	padding: 2%;
+	font-size: 17px;
+	color: white;
+	background-color: dodgerblue;
+	font-weight: bold;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	font-family: Open Sans;
+}
