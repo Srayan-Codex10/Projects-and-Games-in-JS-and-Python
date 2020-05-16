@@ -1,1 +1,1 @@
-# git_practice
+# Projects and games in JS and PYthon
